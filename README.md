@@ -8,7 +8,7 @@ Features
 - Model Accuracy: Shows the prediction accuracy of the trained model.
 
 Installation
-- Clone the repository:git clone https://github.com/your_username/diabetes-checkup.git
+- Clone the repository:git clone https://github.com/ssinha8752/ML_Diabetes_Prediction.git
 cd diabetes-checkup
 
 - Install the required libraries:pip install streamlit pandas sklearn matplotlib plotly seaborn
