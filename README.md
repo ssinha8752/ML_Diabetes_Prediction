@@ -27,7 +27,10 @@ File Structure
 - README.md: Documentation for the project.
 
 Data Source
-The dataset diabetes.csv used in this project contains patient data and their diabetes diagnosis outcomes. The features include:
+
+Link - https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
+
+The dataset used in this project contains patient data and their diabetes diagnosis outcomes. The features include:
 - Pregnancies
 - Glucose level
 - Blood pressure
