@@ -22,7 +22,7 @@ Usage
 - Adjust patient parameters using the sidebar and view the predictions and visualizations.
 
 File Structure
-- app.py: Main application script.
+- main.py: Main application script.
 - diabetes.csv: Training dataset for the machine learning model.
 - README.md: Documentation for the project.
 
@@ -52,7 +52,7 @@ The app includes the following interactive graphs to analyze the patient's data 
 
 Example Output
 - Input Patient Data: Sidebar sliders allow users to input patient data.
-- Prediction: "You are not Diabetic" or "You are Diabetic" displayed with visualizations and accuracy.
+- Prediction: You are not Diabetic - Not Healthy" or You are Diabetic - "Healthy" displayed with visualizations and accuracy.
 
 Screenshots
 
