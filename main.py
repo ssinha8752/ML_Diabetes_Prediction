@@ -103,6 +103,18 @@ def visualize_patient(df, patient_df, features, result):
 # --- BATCH UPLOAD & VISUALIZATION ---
 
 def batch_prediction(model, features, df):
+    empty_df = pd.DataFrame(columns=features)
+    csv = empty_df.to_csv(index=False).encode("utf-8")
+
+    # Provide a downloadable empty CSV template
+    st.download_button(
+        label="📥 Download Empty CSV Template",
+        data=csv,
+        file_name="diabetes_input_template.csv",
+        mime="text/csv"
+    )
+
+
     uploaded_file = st.file_uploader("\U0001F4C2 Upload CSV for Batch Prediction", type="csv")
     if uploaded_file:
         batch_df = pd.read_csv(uploaded_file)
