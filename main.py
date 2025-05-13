@@ -75,7 +75,10 @@ def single_patient_input(feature_columns):
     with st.form("patient_form"):
         user_input = {}
         for col in feature_columns:
-            val = st.number_input(f"{col}", min_value=0.0, value=0.0)
+            if col == "DiabetesPedigreeFunction":
+                val = st.number_input(f"{col}", min_value=0.0, value=0.0, step=0.01)  # Allows decimal values
+            else:
+                val = st.number_input(f"{col}", min_value=0, value=0, step=1)  # Ensures integer input
             user_input[col] = val
         submitted = st.form_submit_button("Predict")
     return pd.DataFrame([user_input]) if submitted else None
