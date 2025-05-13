@@ -57,8 +57,6 @@ Example Output
 - Input Patient Data: Sidebar sliders allow users to input patient data.
 - Prediction: You are not Diabetic - Not Healthy" or You are Diabetic - "Healthy" displayed with visualizations and accuracy.
 
-Screenshots
-
 
 Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements.
