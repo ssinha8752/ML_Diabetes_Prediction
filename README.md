@@ -56,7 +56,3 @@ The app includes the following interactive graphs to analyze the patient's data 
 Example Output
 - Input Patient Data: Sidebar sliders allow users to input patient data.
 - Prediction: You are not Diabetic - Not Healthy" or You are Diabetic - "Healthy" displayed with visualizations and accuracy.
-
-
-Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements.
